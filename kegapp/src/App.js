@@ -1,35 +1,48 @@
 import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
+import axios from 'axios';
+import { Button, Table, Row, Col } from 'reactstrap';
 import './App.css';
 
 function App() {
 
-  const [currentTime, setCurrentTime] = useState(0);
+  const [table, setTable] = useState([]);
 
   useEffect(() => {
-    fetch('./time').then(res => res.json()).then(data => {
-        setCurrentTime(data.time);
-	console.log(data.time)
+    fetch('./retrieve').then(res => res.json()).then(data => {
+        console.log(data)
+	setTable(data);
     });
   }, []);
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-	<p>The current time is {currentTime}.</p>
-      </header>
+      <Row>
+      </Row>  
+      <Row>
+	<Col sm={3}/>
+        <Col sm={6} className="table">
+          <Table>
+            <thead>
+              <tr className="stick-column">
+	        <th>Beers</th>
+	        <th>Weight</th>
+	        <th>Date</th>
+              </tr>
+            </thead>
+            <tbody>     
+	    {table.map((item, key) => {
+	       return <tr key={key}>
+	         <th scope="row">{item.beers}</th>
+  	         <th>{item.weight}</th>
+	         <th>{item.date}</th>
+	       </tr>
+	    })}
+	    </tbody>
+          </Table>
+        </Col>
+        <Col sm={3}/>
+      </Row>
     </div>
   );
 }
