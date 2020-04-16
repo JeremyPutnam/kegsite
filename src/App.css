@@ -1,26 +1,41 @@
 .App {
-  /*text-align: center;*/
-  background-color: #282c34;
+  /*text-align: center;
+  background-color: white;*/
+  font-family: Calibri;
   min-height: 100vh;
+  overflow: hidden;
   /*display: flex;
   flex-direction: column;*/
   align-items: center;
+  text-align: center;
   justify-content: center;
   /*font-size: calc(10px + 2vmin);*/
-  color: white;
 }
 
 .sticky-column {
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0
 }
 
 .table {
-   /* border: 1px solid #eeccee;*/
-    max-height: 300px;
-    overflow-y: scroll;
-    width: 100%;
-    color: white !important;
+  /* border: 1px solid #eeccee;*/
+
+  max-height: 400px;
+  overflow-y: scroll;
+  width: 100%;
+  margin: 2rem 0rem;
+  padding: 0rem 1rem;
 }
  
+.headerRow {
+  background-color: #282c34;
+  text-align: center;
+  align-items: center;
+  min-height: 10vh;
+  color: white;
+}
+
+.background {
+  background-color: white;
+}
