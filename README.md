@@ -34,13 +34,14 @@ I did a test run and found that my scale was accurate to ~0.05 pounds.  I weighe
 
 
 I then began the process of installing the ardunio in the fridge.  I increased the size of the hole where the CO2 tank tube went in so that I could put in my arduino power supply and LCD display wires.  The wiring is messy, but it works.
-![](/Keg%20Fridge/10Wiring.JPG)
+![](/Keg%20Fridge/10Wiring.jpg)
 
 
 I then placed the scale on the already existing wood legs which held up the keg.  The wiring was stored underneath.
 ![](/Keg%20Fridge/11Stored.JPG)
 
 The final output looks like this.
+
 ![](/Keg%20Fridge/FridgeOutput.JPG)
 
 
