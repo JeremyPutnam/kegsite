@@ -29,7 +29,7 @@ Finally I had an actual working set up.  I used the bogde HX711 and liquidcrysta
 Next I started to calibrate the scale.  With the help of my roommates, I created some data points using a bathroom scale and various weights to generate a line of best fit for my data.
 ![](/Keg%20Fridge/8Calibration.JPG)
 
-I did a test run and found that my scale was accurate to ~0.05 pounds.  I weighted an empty keg that was lying around and found that it weighted about 31 pounds.
+I did a test run and found that my scale was accurate to ~0.05 pounds.  I weighed an empty keg that was lying around and found that it weighed about 31 pounds.
 ![](/Keg%20Fridge/9KegTestRun.JPG)
 
 
