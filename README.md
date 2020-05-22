@@ -24,7 +24,7 @@ I bought a HX711 chip/Load Combinator from SparkFun (after the initial cheap boa
 ![](/Keg%20Fridge/2Solder.mp4)
 
 Finally I had an actual working set up.  I used the bogde HX711 and liquidcrystal_i2c ardunio libraries to create the source code for reading the HX711 inputs and displaying to the lcd screen.
-![](/Keg%20Fridge/6ImprovedLoadCell.mp4)
+![](/Keg%20Fridge/6ImprovedLoadCell.JPG)
 
 Next I started to calibrate the scale.  With the help of my roommates, I created some data points using a bathroom scale and various weights to generate a line of best fit for my data.
 ![](/Keg%20Fridge/8Calibration.JPG)
