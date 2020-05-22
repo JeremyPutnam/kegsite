@@ -4,6 +4,29 @@ This is an overview of the creation process for my kegerator scale.  I was fortu
 
 ![](/Keg%20Fridge/0.1KegProblem.JPG)
 
-I began by buging some wood and cutting it up
+I began by buging some wood and cutting it up for the scale
 
 ![](/Keg%20Fridge/0CutWood.JPG)
+
+I ordered a cheap LCD screen off of amazon and wrote some basic code to check the screen worked with my raspberry pi
+![](/Keg%20Fridge/1.1LCDSetUp.JPG)
+
+I positioned the load cells on the wood and attempted to make a Wheatstone Bridge configuration.  This most likely would have worked, but I made a mistake and did not raise the load cells so that I could get an actual reading from them.  There was hardly any documentation on how to actually mount these load cells.  The whole process here was a huge headache.  This picture is the imporper load cell set up.
+![](/Keg%20Fridge/3BadLoadCellSetUp.JPG)
+
+After scrolling through many threads on the SparkFun boards I managed to find someone who referenced the fact that the load cells had to be raised to work.  I cut some small pieces of wood to raise the load cells above the board which seemed easier than trying to drill out a hole of my bottom board.
+![](/Keg%20Fridge/4ImprovedWood.JPG)
+![](/Keg%20Fridge/5ImprovingLoadCell.JPG)
+
+I bought a HX711 chip/Load Combinator from SparkFun (after the initial cheap board I got off amazon didn't work) and load cells from amazon.  I then soldered them together.  I initially forgot to solder wires to power to both the VCD and VCC on the HX711 chip so don't make my same mistake.
+![](/Keg%20Fridge/2Solder.mp4)
+
+Finally I had an actual working set up.
+![](/Keg%20Fridge/6ImprovedLoadCell.mp4)
+
+Next I started to calibrate the scale.  With the help of my roommates, I created some data points using a bathroom scale and various weights to generate a line of best fit for my data.
+![](/Keg%20Fridge/8Calibration.JPG)
+
+
+
+
