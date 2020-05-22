@@ -8,7 +8,7 @@ I began by buging some wood and cutting it up for the scale
 
 ![](/Keg%20Fridge/0CutWood.JPG)
 
-I ordered a cheap LCD screen off of amazon and wrote some basic code to check the screen worked with my raspberry pi.
+I ordered a cheap LCD screen off of amazon and wrote some basic code to check the screen worked with my ardunio.
 
 ![](/Keg%20Fridge/1.1LCDSetUp.JPG)
 
