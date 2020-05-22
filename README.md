@@ -12,7 +12,7 @@ I ordered a cheap LCD screen off of amazon and wrote some basic code to check th
 
 ![](/Keg%20Fridge/1.1LCDSetUp.JPG)
 
-I positioned the load cells on the wood and attempted to make a Wheatstone Bridge configuration.  This most likely would have worked, but I made a mistake and did not raise the load cells so that I could get an actual reading from them.  There was hardly any documentation on how to actually mount these load cells.  The whole process here was a huge headache.  This picture is the imporper load cell set up.
+I positioned the load cells on the wood and attempted to make a Wheatstone Bridge configuration.  This most likely would have worked, but I made a mistake and did not raise the load cells so that I could get an actual reading from them.  There was hardly any documentation on how to actually mount these load cells.  The whole process here was a huge headache.  This picture is the improper load cell set up.
 
 ![](/Keg%20Fridge/3BadLoadCellSetUp.JPG)
 
